@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion Login Page</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <main>
+                <h1>Connexion</h1>
+                <a href="#" class="btn connect-google">
+                    <i class="fa-brands fa-google"></i>
+                    Continue with Google
+                </a>
+                <a href="#" class="btn connect-apple">
+                    <i class="fa-brands fa-apple"></i>
+                    Continue with Apple</a>
+                <div class="divider"></div>
+                <div id="form-id">
+                <p class="input-label">E-mail</p>
+                <input type="text" class="input-text" name="email" placeholder="Enter your email address...">
+                </div>
+                <div id="form-pw">
+                    <p class="input-label-pw">Password</p>
+                    <input type="text" class="input-text" name="password" placeholder="Enter your password...">
+
+                </div>
+                <a id="submit-pw" href="#" class="btn connect-pw">Continue with password</a>
+                
+                <a id="form-email" href="#" class="btn connect-email" onclick="send()">Continue with email</a>
+
+                <a href="#" class="forgot-pw">Forgot password?</a>
+                <p class="sso">You can also <a href="#">continue with SAML SSO</a></p>
+            </main>
+
+        </div>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>

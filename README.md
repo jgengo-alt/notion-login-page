@@ -28,6 +28,4 @@ Training front-end by redoing the notion login page by myself trying as much as 
 
 ### ❖ Screenshots
 
-![Design preview for the login page 01](./.github/docs/screenshot01.png)
-
 ![Design preview for the login page 02](./.github/docs/screenshot02.png)
